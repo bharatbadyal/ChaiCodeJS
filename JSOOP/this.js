@@ -65,6 +65,7 @@ const obj2 = {
     x: function(){
 
        const y = ()=>{
+        // enclosing lexical context
         console.log(this);
     }
         y();
@@ -76,4 +77,3 @@ const obj2 = {
 }
 obj2.x();
 obj2.z();
-// this inside DOMf
