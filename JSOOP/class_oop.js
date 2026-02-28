@@ -18,5 +18,5 @@ let myCar = new car("Tata","Siara");
 console.log(myCar.start())
 console.log(myCar.drive())
 
-let v = vehicle("x","y");
-console.log(v.start());  // it will through an error "Class constructor vehicle cannot be invoked without 'new'"
+// let v = vehicle("x","y");
+// console.log(v.start());  // it will through an error "Class constructor vehicle cannot be invoked without 'new'" 
