@@ -62,3 +62,16 @@ account.deposit(200);
 console.log(account.getBalance()); // 700
 // console.log(account.balance); ❌ Undefined
 
+// Simple SWOT Analysis Program
+
+let strengths = prompt("Enter your Strengths (comma separated):");
+let weaknesses = prompt("Enter your Weaknesses (comma separated):");
+let opportunities = prompt("Enter your Opportunities (comma separated):");
+let threats = prompt("Enter your Threats (comma separated):");
+
+console.log("----- YOUR SWOT ANALYSIS -----");
+console.log("Strengths: " + strengths);
+console.log("Weaknesses: " + weaknesses);
+console.log("Opportunities: " + opportunities);
+console.log("Threats: " + threats);
+// april's fool code push
